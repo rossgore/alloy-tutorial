@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<projection> <type name="Height"/> <type name="Int"/> <type name="State"/> <type name="Width"/> </projection>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Height"/>
+   <type name="Int"/>
+   <type name="Lost"/>
+   <type name="Play"/>
+   <type name="Position"/>
+   <type name="State"/>
+   <type name="Status"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="Width"/>
+   <type name="Won"/>
+   <type name="open$3/Ord"/>
+   <type name="ordering/Ord"/>
+   <type name="seq/Int"/>
+   <set name="blinky" type="Position"/>
+   <set name="column" type="Position"/>
+   <set name="coordinates" type="Position"/>
+   <set name="First" type="ordering/Ord"/>
+   <set name="food" type="Position"/>
+   <set name="Next" type="ordering/Ord"/>
+   <set name="pacman" type="Position"/>
+   <set name="row" type="Position"/>
+   <set name="status" type="Status"/>
+   <set name="walls" type="Position"/>
+</node>
+
+</view>
+
+</alloy>
